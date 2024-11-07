@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "baseUrl": "src",
+      "paths": {
+        "@app/*": ["app/*"],
+        "@pages/*": ["pages/*"],
+        "@features/*": ["features/*"],
+        "@widgets/*": ["widgets/*"],
+        "@entities/*": ["entities/*"],
+        "@shared/*": ["shared/*"]
+      },
+      "esModuleInterop": true
+    }
+  }
