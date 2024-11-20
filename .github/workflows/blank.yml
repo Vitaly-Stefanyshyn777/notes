@@ -32,5 +32,5 @@ jobs:
           git add .
           git commit -m "Deploy to GitHub Pages"
           git branch -M gh-pages
-          git remote add origin https://github.com/<ваше_ім'я_користувача>/<ваш_репозиторій>.git
+          git remote add origin https://github.com/Vitaly-Stefanyshyn777/notes.git
           git push -f origin gh-pages
