@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 import { resolve } from "path";
 
 export default defineConfig({
-  base: "/goit-react-hw-03/", // Замініть на назву вашого репозиторію
+  base: "/notes/", // Замініть на назву вашого репозиторію
   plugins: [react()],
   build: {
     outDir: "dist",
