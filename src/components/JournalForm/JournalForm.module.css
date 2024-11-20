@@ -19,7 +19,7 @@
 	gap: 50px;
 }
 
- .input {
+ /* .input {
 	border: none;
 	background: none;
 	font-size: 14px;
@@ -41,13 +41,13 @@
 	font-family: 'Source Sans 3', sans-serif;
 	border-bottom: 1px solid #323232;
 }
-
-.invalid {
+*/
+ .invalid {
 	border: 1px solid red;
 	background: rgb(68, 6, 6);
-}
+}  
 
-/* .delete {
+.delete {
 	border: none;
 	background: none;
 	cursor: pointer;
@@ -59,4 +59,4 @@
 .delete:hover {
 	background: rgb(255, 255, 255, 0.05);
 	border-radius: 50%;
-}  */
+} 
