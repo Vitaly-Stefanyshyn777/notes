@@ -1,13 +1,19 @@
+// vite.config.js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import { resolve } from "path";
 
 export default defineConfig({
-  base: "/notes/", // Базовий шлях для вашого проєкту
+  base: "/goit-react-hw-03/", // Замініть на назву вашого репозиторію
   plugins: [react()],
   build: {
-    outDir: "dist", // Директорія для зібраного проєкту
+    outDir: "dist",
   },
   resolve: {
-    alias: {}, // Залиште порожнім або повністю видаліть `resolve`, якщо аліаси не потрібні
+    alias: {
+      '@components': resolve(__dirname, './src/components'),
+      '@assets': resolve(__dirname, './src/assets'),
+      '@data': resolve(__dirname, './src/components/data'),
+    },
   },
 });
